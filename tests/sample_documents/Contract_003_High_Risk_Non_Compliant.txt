@@ -1,0 +1,15 @@
+OUTSOURCING AND INFRASTRUCTURE AGREEMENT
+
+This Agreement is dated January 10, 2026, by and between Gamma Corp ("Customer") and Legacy Infra Systems ("Supplier").
+
+1. PAYMENT TERMS
+Customer agrees to pay all invoiced amounts within Net 120 days from delivery of physical invoice.
+
+2. TERM AND NON-CANCELLATION
+This Agreement has a mandatory non-cancellable term of 5 years. Neither party may terminate this Agreement for convenience under any circumstances.
+
+3. SECURITY AND BREACH NOTIFICATION
+Supplier shall notify Customer of any confirmed data compromise within 14 business days following complete forensic investigation.
+
+4. UNLIMITED LIABILITY & INDEMNIFICATION
+Customer agrees to assume unlimited liability for all direct, indirect, consequential, and punitive damages arising under this Agreement.

@@ -1,0 +1,43 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Application Run Artifacts & Uploads
+uploads/*
+!uploads/.gitkeep
+outputs/compliance/*
+outputs/evidence/*
+outputs/evidence_images/*
+outputs/audit/*
+!outputs/**/.gitkeep
+database/*.db
+database/*.sqlite
+logs/*
+!logs/.gitkeep
+scratch/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

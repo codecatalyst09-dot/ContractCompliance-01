@@ -1,0 +1,57 @@
+[
+  {
+    "policy_id": "POL-001",
+    "name": "Payment Terms Policy",
+    "category": "Commercial",
+    "description": "Standard net payment term limits allowed for vendor contracts.",
+    "requirement": "Payment terms must be Net 60 days or shorter from receipt of a valid invoice.",
+    "severity": "HIGH",
+    "guidance": "If payment terms exceed Net 60 days (e.g. Net 90 days), flag as non-compliant unless explicit Finance approval is granted."
+  },
+  {
+    "policy_id": "POL-002",
+    "name": "Termination Notice Policy",
+    "category": "Legal",
+    "description": "Required advance written notice for contract termination without cause.",
+    "requirement": "Contract must allow termination for convenience with no more than 30 days written notice.",
+    "severity": "HIGH",
+    "guidance": "Notice periods exceeding 60 days or requiring immediate non-cancellable terms are non-compliant."
+  },
+  {
+    "policy_id": "POL-003",
+    "name": "Confidentiality & Non-Disclosure Policy",
+    "category": "Legal & Security",
+    "description": "Mutual confidentiality obligations protecting proprietary data.",
+    "requirement": "Contract must contain explicit mutual confidentiality obligations surviving for at least 3 years after termination.",
+    "severity": "CRITICAL",
+    "guidance": "Missing confidentiality provisions or unilateral non-disclosure clauses favoring only one party are non-compliant."
+  },
+  {
+    "policy_id": "POL-004",
+    "name": "Data Protection & Privacy Policy",
+    "category": "Compliance & Security",
+    "description": "Protection of personal data and security breach notification requirement.",
+    "requirement": "Contract must specify data encryption, security standards, and mandatory breach notification within 72 hours.",
+    "severity": "CRITICAL",
+    "guidance": "Failure to require prompt data breach notification (within 72 hours) is a critical compliance risk."
+  },
+  {
+    "policy_id": "POL-005",
+    "name": "Limitation of Liability Policy",
+    "category": "Commercial & Legal",
+    "description": "Cap on indirect damages and overall liability risk exposure.",
+    "requirement": "Contract must cap aggregate liability to no more than 2x total contract value and exclude consequential/indirect damages.",
+    "severity": "MEDIUM",
+    "guidance": "Unlimited liability provisions (except for confidentiality or gross negligence) must be flagged."
+  },
+  {
+    "policy_id": "POL-006",
+    "name": "Standard Contract Template & Mandatory Sections Policy",
+    "category": "Template & Legal Structure",
+    "description": "Verification of essential mandatory contract template sections and structural completeness.",
+    "requirement": "Contract must include core standard template sections: (1) Parties & Recitals/Effective Date, (2) Scope/Deliverables, (3) Payment/Fees, (4) Term & Termination, (5) Confidentiality, (6) Limitation of Liability, (7) Governing Law, and (8) Authorized Signatures Block.",
+    "severity": "HIGH",
+    "guidance": "Contracts missing critical structural sections or signature blocks must be marked as NON_COMPLIANT or PARTIAL."
+  }
+]
+

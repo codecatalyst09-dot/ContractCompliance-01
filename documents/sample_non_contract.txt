@@ -1,0 +1,14 @@
+INVOICE #INV-2026-0042
+
+Date: February 10, 2026
+Bill To: ACME Corporation
+From: Office Supplies Outlet
+
+Items Purchased:
+1. Ergonomic Chairs (Qty: 5) - $1,200.00
+2. Standing Desks (Qty: 2) - $900.00
+
+Total Amount Due: $2,100.00
+Payment Method: Credit Card
+
+Thank you for your business!

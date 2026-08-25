@@ -1,0 +1,18 @@
+MASTER SERVICES AGREEMENT
+
+This Master Services Agreement ("Agreement") is entered into as of January 15, 2026, by and between ACME Corporation ("Client") and TechServices LLC ("Provider").
+
+1. PAYMENT TERMS
+Client agrees to pay all undisputed invoices within Net 90 days from the date of invoice receipt. Late payments shall accrue interest at 1.5% per month.
+
+2. TERMINATION
+Either party may terminate this Agreement without cause upon providing at least 15 days prior written notice to the other party.
+
+3. CONFIDENTIALITY
+Each party agrees to maintain the confidentiality of all proprietary information disclosed during the term of this Agreement and for a period of 5 years following termination.
+
+4. DATA PROTECTION
+Provider agrees to implement industry-standard encryption for all Client data in transit and at rest. In the event of a security breach, Provider shall notify Client within 48 hours of discovery.
+
+5. LIMITATION OF LIABILITY
+Neither party's total aggregate liability under this Agreement shall exceed $100,000. Indirect, consequential, and punitive damages are expressly excluded.

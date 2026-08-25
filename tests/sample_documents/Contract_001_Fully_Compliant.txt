@@ -1,0 +1,18 @@
+SOFTWARE LICENSE AND SERVICES AGREEMENT
+
+This Agreement is entered into on March 1, 2026, by and between Alpha Global Corp ("Customer") and CloudServices International ("Vendor").
+
+1. PAYMENT TERMS
+Customer shall pay all undisputed invoices within Net 30 days of receipt.
+
+2. TERMINATION FOR CONVENIENCE
+Either party may terminate this Agreement without cause upon providing at least 30 days prior written notice.
+
+3. CONFIDENTIALITY
+Both parties mutually agree to protect proprietary and confidential information disclosed under this Agreement for a period of 4 years following any termination.
+
+4. DATA PROTECTION & SECURITY
+Vendor shall encrypt all Customer data at rest and in transit using AES-256 standards. In the event of a suspected or confirmed data security incident, Vendor must notify Customer within 24 hours.
+
+5. LIMITATION OF LIABILITY
+Each party's maximum aggregate liability shall be capped at 1.0x the total fees paid under this Agreement in the preceding 12 months. Consequential, special, and indirect damages are expressly excluded.

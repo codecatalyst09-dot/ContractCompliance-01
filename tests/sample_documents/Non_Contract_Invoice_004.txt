@@ -1,0 +1,18 @@
+STATEMENT OF ACCOUNT / INVOICE
+
+Invoice Number: INV-998234
+Date: March 15, 2026
+Vendor: Hardware & Networking Solutions LLC
+Customer: Delta Enterprise
+
+Line Items:
+- Network Switches (Qty 4) - $4,800.00
+- Cat6 Cabling Spools (Qty 10) - $1,500.00
+- Onsite Installation Fee - $1,200.00
+
+Subtotal: $7,500.00
+Tax: $600.00
+Total Due: $8,100.00
+
+Payment Remittance:
+Wire transfer to account ending in #4092. Due upon receipt.

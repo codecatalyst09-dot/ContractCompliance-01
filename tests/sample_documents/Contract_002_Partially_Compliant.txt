@@ -1,0 +1,18 @@
+VENDOR SERVICES AGREEMENT
+
+This Vendor Services Agreement is dated February 15, 2026, between Beta Holdings ("Client") and Digital Ops Inc ("Provider").
+
+1. PAYMENT
+All undisputed invoices shall be paid within Net 90 days from the invoice date. Late fees of 2% per month apply.
+
+2. TERMINATION
+Either party may terminate this Agreement without cause upon 20 days advance written notice.
+
+3. CONFIDENTIALITY
+The parties agree to maintain mutual confidentiality of disclosed trade secrets for 5 years after expiration of the term.
+
+4. DATA PRIVACY
+Provider shall maintain data encryption standards and shall inform Client within 48 hours of any data security breach.
+
+5. LIABILITY
+The total aggregate liability of either party shall not exceed $50,000. Indirect and consequential damages are waived.
