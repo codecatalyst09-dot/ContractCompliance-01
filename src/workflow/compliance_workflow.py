@@ -2,6 +2,7 @@ import asyncio
 import time
 import uuid
 from datetime import datetime, timezone
+from functools import lru_cache
 from typing import Optional, Dict, Any, List, Callable, Awaitable
 from pydantic import BaseModel, Field
 
@@ -366,4 +367,13 @@ class ContractComplianceWorkflow:
             "errors": state.errors
         }
         save_audit_json(audit_record)
+
+
+@lru_cache(maxsize=16)
+def get_compliance_workflow(policy_file_path: str = "policies/policies.json") -> ContractComplianceWorkflow:
+    """
+    Returns a cached, pre-warmed singleton ContractComplianceWorkflow instance per policy file path.
+    Reuses the initialized workflow and underlying AI agents across upload requests.
+    """
+    return ContractComplianceWorkflow(policy_file_path=policy_file_path)
 

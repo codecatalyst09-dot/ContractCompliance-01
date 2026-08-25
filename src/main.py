@@ -9,7 +9,7 @@ from typing import List
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-from src.workflow.compliance_workflow import ContractComplianceWorkflow
+from src.workflow.compliance_workflow import ContractComplianceWorkflow, get_compliance_workflow
 from src.monitoring.logging_config import get_logger
 
 logger = get_logger("main_cli")
@@ -193,7 +193,7 @@ async def main_async():
     print(f" Concurrency : {concurrency_label}")
     print(f"=======================================================\n")
 
-    workflow = ContractComplianceWorkflow(policy_file_path=args.policy_file)
+    workflow = get_compliance_workflow(policy_file_path=args.policy_file)
     semaphore = asyncio.Semaphore(concurrency)
 
     tasks = [

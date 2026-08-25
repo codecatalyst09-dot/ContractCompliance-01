@@ -24,7 +24,7 @@ from src.database.db import (
     init_db, create_run, update_run_from_result, mark_run_failed,
     get_all_runs, get_run, delete_run, get_stats
 )
-from src.workflow.compliance_workflow import ContractComplianceWorkflow
+from src.workflow.compliance_workflow import ContractComplianceWorkflow, get_compliance_workflow
 from src.monitoring.logging_config import get_logger
 
 logger = get_logger("api")
@@ -303,7 +303,7 @@ async def api_submit_run(
     sem = asyncio.Semaphore(min(auto_concurrency, len(saved_files)))
 
     run_ids = []
-    workflow = ContractComplianceWorkflow(policy_file_path=policy_path)
+    workflow = get_compliance_workflow(policy_file_path=policy_path)
 
     async def process(file_path: str, orig_name: str):
         run_id = str(uuid.uuid4())
